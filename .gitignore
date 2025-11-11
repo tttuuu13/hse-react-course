@@ -1,0 +1,39 @@
+# Ignore node_modules everywhere
+**/node_modules/
+
+# Ignore build outputs everywhere
+**/dist/
+**/build/
+**/.next/
+**/.parcel-cache/
+**/.vite/
+
+# Local environment variables
+**/.env
+**/.env.*.local
+
+# Logs in any project folder
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+
+# Editor settings anywhere
+**/.vscode/
+**/.idea/
+**/*.suo
+**/*.ntvs*
+**/*.njsproj
+**/*.sln
+**/*.sw?
+
+# OS files
+**/.DS_Store
+**/Thumbs.db
+
+# Yarn / pnpm / turbo caches
+**/.pnp
+**/.pnp.js
+**/.yarn
+**/.turbo
+
